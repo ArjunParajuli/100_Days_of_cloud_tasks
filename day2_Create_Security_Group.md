@@ -1,8 +1,4 @@
-# Create a security group under default VPC with the following requirements:
-# Name of the security group is devops-sg.
-# The description must be Security group for Nautilus App Servers
-# Add the inbound rule of type HTTP, with port range of 80. Enter the source CIDR range of 0.0.0.0/0.
-# Add another inbound rule of type SSH, with port range of 22. Enter the source CIDR range of 0.0.0.0/0.
+# Create a security group under default VPC with the following requirements: Name of the security group is devops-sg. The description must be Security group for Nautilus App Servers Add the inbound rule of type HTTP, with port range of 80. Enter the source CIDR range of 0.0.0.0/0. Add another inbound rule of type SSH, with port range of 22. Enter the source CIDR range of 0.0.0.0/0.
 
 # Using AWS Management Console:
 - Select Security Groups

@@ -10,8 +10,9 @@ Run the following s3api command, replacing YOUR-BUCKET-NAME with your actual buc
 aws s3api put-bucket-versioning --bucket YOUR-BUCKET-NAME --versioning-configuration Status=Enabled
 
 
-
-Versioning in AWS is a crucial mechanism for protecting data from accidental deletion or overwriting and for managing the lifecycle of application resources.
+<br><br>
+### Versioning in AWS
+It is a crucial mechanism for protecting data from accidental deletion or overwriting and for managing the lifecycle of application resources.
 - S3 versioning allows you to keep multiple variants of an object in the same bucket.
 - When enabled, an overwrite results in a new version rather than a replacement.
 - You are billed for the full size of every version stored. If you have a 1GB file and update it 5 times, you are paying for 5GB of storage.

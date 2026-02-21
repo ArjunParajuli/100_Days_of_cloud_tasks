@@ -3,6 +3,13 @@ Amazon EBS (Elastic Block Store) volumes are durable, block-level storage device
 - Attach/detach to any instance in the same Availability Zone (AZ). You can move data between instances easily.
 - High Durability
 
+### Task: 
+Create a volume with the following requirements:\
+Name of the volume should be nautilus-volume.\
+Volume type must be gp3.\
+
+
+Volume size must be 2 GiB.
 ### AWS Management Console
 - In the left menu, choose Volumes → Create volume.
 - Volume type: gp3 (it is the default).

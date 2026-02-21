@@ -17,7 +17,7 @@ Amazon EBS (Elastic Block Store) volumes are durable, block-level storage device
 - Click Create volume.
 
 ### AWS CLI (for automation/scripts)
-Bashaws ec2 create-volume \
+aws ec2 create-volume \
   --volume-type gp3 \
   --size 2 \
   --availability-zone us-east-1a \   # ← CHANGE TO YOUR AZ
